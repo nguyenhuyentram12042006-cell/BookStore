@@ -15,5 +15,6 @@ class BookController extends Controller
             ->firstOrFail();
 
         return view('books.show', compact('book'));
+        
     }
 }
